@@ -1,0 +1,36 @@
+.recent-containner {
+  height: 110px;
+  width: 225px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  font-size: 15px;
+}
+.recent-containner img {
+  width: 90px;
+  height: 110px;
+}
+.descript {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 75%;
+}
+.next-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next-arrow div {
+  background-color: white;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next-arrow:active{
+  transform: scale(0.9);
+}

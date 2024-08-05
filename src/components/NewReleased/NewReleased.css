@@ -1,0 +1,28 @@
+.new-released{
+  width: 260px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.new-descript{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.new-descript button{
+  background-color: red;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.hd-btn{
+  margin-right: 7px;
+}
+.new-descript .button{
+background-color: transparent;
+border: 1px solid red;
+}
+.button img{
+  margin-right: 5px;
+}

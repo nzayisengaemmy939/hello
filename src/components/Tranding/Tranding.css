@@ -1,0 +1,33 @@
+.trandings-info{
+  position: relative;
+  width: 335px;
+}
+
+.trandings-info .play-button{
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: transparent;
+  border: none;
+}
+.cont-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.cont-button button{
+  background-color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+.time-star{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 20px;
+  left: 30px;
+  width: 80%;
+}
