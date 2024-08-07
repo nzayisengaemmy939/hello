@@ -15,7 +15,7 @@ function Footer() {
           color: "white",
         }}
       >
-        &copy; BOSCO {new Date().getFullYear()}, All Rights Reserved
+        &copy;Emmy {new Date().getFullYear()}, All Rights Reserved
       </footer>
     </div>
   )

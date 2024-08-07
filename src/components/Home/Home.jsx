@@ -50,7 +50,7 @@ const FetchNowPlaying = async () => {
       scrollbar={{ draggable: true }}
   >
       { 
-        data.map((item)=>{
+        data.slice(3,13).map((item)=>{
           return(
           <SwiperSlide key={item.id}>
             
